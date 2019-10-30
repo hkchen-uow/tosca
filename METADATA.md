@@ -54,7 +54,7 @@ There are three types of node_example:
 #### Use Cases
 
 Github provide a simple text search function (https://github.com/hkchen-uow/tosca/find/METADATA), 
-which allow ADT developers to search ADT by queries.
+which allow ADT developers to search ADT by queries. Here are some typical use cases and relevant queries:
 
 
 1.	I would like to find all the prototype ADT.
@@ -80,18 +80,23 @@ which allow ADT developers to search ADT by queries.
 6.	I would like to find some application examples to construct an ADT.
     
     node_example/applications
+    
 7.	How can I find the application examples for application named “application_example_a”?
     
     node_example/applications/application_example_a
+    
 8.	I would like to find some Occopus examples to construct an ADT.
     
     node_example/Occopus
+    
 9.	How can I find the Occopus examples for deployment in “ec2”?
     
     node_example/Occopus/ec2
+    
 10.	I would like to find some policy examples to construct an ADT.
     
     node_example/policies
+    
 11.	How can I find all the policy examples for application named “application_a”?
     
     node_example/policies/application_a
